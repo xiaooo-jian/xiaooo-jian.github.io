@@ -24,7 +24,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
 url: https://xiaooo-jian.github.io # 你的域名，例如https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
-jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
+jekyll-theme-Xiao: # 我的主题的自定义样式都在这个命名空间
   default:
     body:
       theme-base: theme-base-07 # 可选的值08~0f，见<https://github.com/poole/lanyon>
@@ -96,11 +96,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://wu-kan.cn/MizunoAi/pixiv/74559485_p1.webp);
+            background-image: url(/assets/image/background2.jpeg);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://wu-kan.cn/MizunoAi/pixiv/71932901_p0.webp);
+              background-image: url(/assets/image/background1.jpeg);
             }
           }
         </style>
