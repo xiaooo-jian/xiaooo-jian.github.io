@@ -1,7 +1,7 @@
 title: xiaooo-jian # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   DGUT软工18级在读<br/>
-  敲敲代码丰富生活<br/>
+  悄悄代码丰富生活<br/>
   xiao<br/>
   <a href="mailto:gjxiao@qq.com">
     <i class="fas fa-envelope"></i>
@@ -157,12 +157,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
+        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
+          href: /comments/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 文章'
           href: /archive/
-		- title: '<i class="fas fa-comments fa-fw"></i> 留言'
-          href: /comments/
       simple_jekyll_search: # 侧边栏的全站搜索
         enable: true
         full_text_search: false # 可能导致缓慢的搜索和加载
@@ -425,6 +425,46 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     posts_count:
       enable: true # 博文数量统计
       alert: 篇博文。码路漫漫！ # 提示语
+  merger: # 打赏页，需要配置！
+    append_to_head:
+      - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
+        <script>
+          var usage = "payment";
+          var wechat = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
+          var tenpay = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
+          var alipay = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
+          var paypal = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
+          var myname = "别别别，这个我还没搞好，别支付！！";
+          var profile = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
+          var multilingual = true;
+          var myname_hans = "肖";
+          var myname_hant = "肖";
+          var myname_eng = "xiao";
+          var title = "选择你的支付方式";
+          var subtitle = "跟随进一步的指示以向" + myname + "付款";
+          var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
+        </script>
+      - |
+        <meta
+          charset="utf-8"
+        />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta
+          http-equiv="Content-Security-Policy"
+          content="upgrade-insecure-requests"
+        />
+      - | # merger的页面样式
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
+        />
+        <script
+          src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
+          defer='defer'
+        ></script>
   home: # 用于生成ppt的模板，看不懂的话可以不用配置
     append_to_section_tag:
       - key: data-markdown
