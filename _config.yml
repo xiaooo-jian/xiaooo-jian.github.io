@@ -153,7 +153,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       disable: false # 是否不显示sidebar
       avatar: # 侧边栏显示的头像
         enable: true
-        img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+        img: https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80 # 头像的地址
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
@@ -384,12 +384,12 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         onload='
           new Valine({
             "el": ".v",
-            "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-            "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+            "appId": "ajUUkfx9yxEpnw0x6wzROWro-gzGzoHsz",
+            "appKey": "NIld0P33YAQ1Kc6Tn8gbfcOh",
             "notify": "true",
             "verify": "true",
             "avatar": "identicon",
-            "placeholder": "在这里评论吧！",
+            "placeholder": "畅所欲言",
             "visitor": true,
             "highlight": true,
             "avatarForce": false,
