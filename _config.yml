@@ -238,7 +238,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
                 document.getElementById("run_time_hour").innerHTML = setzero(hrsold);
                 document.getElementById("run_time_minute").innerHTML = setzero(minsold);
                 document.getElementById("run_time_second").innerHTML = setzero(seconds);
-              }, 1000, "19/03/2020 16:21:56") // 这是我第一篇CSDN博客的时间
+              }, 1000, "03/03/2020 16:21:56") // 这是我第一篇CSDN博客的时间
             </script>
           </div>
         - | # 不蒜子页面统计，看不懂可不改
@@ -269,15 +269,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         - | # Copyright声明
           <div>
             <i class="fas fa-copyright fa-fw"></i>
-            2017-2020 WuK
+            2020 xiaooo
           </div>
-        - | # 觉得我的主题好用的话，让更多的人知道它吧！
-          <div>
-            <i class="fas fa-thumbs-up fa-fw"></i>
-            <a href="https://jekyll-theme-WuK.wu-kan.cn">
-              jekyll-theme-WuK
-            </a>
-          </div>
+
       wordcount: # 全站字数统计
         enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
         alert: <i class="fas fa-user-edit fa-fw"></i>
