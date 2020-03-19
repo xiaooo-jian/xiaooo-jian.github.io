@@ -161,7 +161,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /comments/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
           href: /tags/
-        - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+        - title: '<i class="fas fa-archive fa-fw"></i> 文章'
           href: /archive/
         - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
           href: /merger/
@@ -436,7 +436,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           var tenpay = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
           var alipay = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
           var paypal = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
-          var myname = "xiao";
+          var myname = "别别别，这个我还没搞好，别支付！！";
           var profile = "https://s.gravatar.com/avatar/c0e015e63f375e9f380b12c17571002c?s=80";
           var multilingual = true;
           var myname_hans = "肖";
