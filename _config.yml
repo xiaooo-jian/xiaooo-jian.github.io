@@ -29,7 +29,7 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
     body:
       theme-base: theme-base-07 # 可选的值08~0f，见<https://github.com/poole/lanyon>
       layout-reverse: false # 开启后sidebar在右边，反之左边
-      sidebar-overlay: false # 开启后正文不随sidebar移动而移动
+      sidebar-overlay: true # 开启后正文不随sidebar移动而移动
     append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章<https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
       - | #一些页面优化标签，看不懂可跳过
         <meta
@@ -157,14 +157,14 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
         - title: '<i class="fas fa-home fa-fw"></i> 首页'
           href: /
-        - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-          href: /comments/
         - title: '<i class="fas fa-tags fa-fw"></i> 标签'
           href: /tags/
         - title: '<i class="fas fa-archive fa-fw"></i> 文章'
           href: /archive/
-        - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-          href: /merger/
+		- title: '<i class="fas fa-comments fa-fw"></i> 留言'
+          href: /comments/
+        #- title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
+        # href: /merger/
       simple_jekyll_search: # 侧边栏的全站搜索
         enable: true
         full_text_search: false # 可能导致缓慢的搜索和加载
