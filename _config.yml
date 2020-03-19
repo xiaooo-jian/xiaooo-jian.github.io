@@ -87,7 +87,23 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           src='https://zz.bdstatic.com/linksubmit/push.js'
           defer="defer"
         ></script>
-
+		- | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在/assets/image/background.jpg，那就改成url(/assets/image/background.jpg)
+        <style>
+          .wrap {
+            min-height: 100vh;
+            display: inline-block;
+            background-size: 100vw auto;
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-image: url(https://original.img.cheerfun.dev/img-original/img/2016/02/08/00/02/50/55155713_p0.jpg);
+          }
+          @media (min-aspect-ratio: 2400/1850) {
+            .wrap {
+              background-image: url(https://original.img.cheerfun.dev/img-original/img/2016/02/08/00/02/50/55155713_p0.jpg);
+            }
+          }
+        </style>
       - | # 网站字体
         <style>
           html,
