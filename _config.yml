@@ -163,8 +163,6 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           href: /archive/
 		- title: '<i class="fas fa-comments fa-fw"></i> 留言'
           href: /comments/
-		- title: '<i class="fas fa-info-circle fa-fw"></i> 关于'
-          href: /merger/
       simple_jekyll_search: # 侧边栏的全站搜索
         enable: true
         full_text_search: false # 可能导致缓慢的搜索和加载
