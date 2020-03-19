@@ -1,11 +1,8 @@
 # Xiaooo
 
 欢迎访问我的个人主页！
+
 <!-- slide -->
-
-## 欢迎来到我的博客
-
-<!-- slide vertical=true -->
 
 ## 我的一些联系方式
 
@@ -25,15 +22,20 @@
 
 <!-- slide vertical=true -->
 
-- **C/C++**, learning
-- **Python**, learning
+- **C/C++**, Learning
+- **Python**, Learning
+- **Java** 
+	- Java EE，Learning
+	- Jave SE，Learning
 
 <!-- slide vertical=true -->
 
-- **Markdown**, learning
-- **LaTex**, Familiar
+- **Markdown**, Learning
 - **Linux**, Learning
-- **Git**, learning
+- **Git**, Learning
 
 <!-- slide -->
+
+## 对的我现在就是个菜鸡
+## 2020.03.19 QAQ
 
