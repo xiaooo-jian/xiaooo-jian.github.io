@@ -18,7 +18,8 @@ Numpy是开源的python科学计算基础库。
 ndarray是一个多维数组对象，由两部分构成：
  - 实际的数据
  - 描述这些数据的元数据（数据维度、数据类型等）
- ## 1、ndarray对象的创建
+
+## 1、ndarray对象的创建
  x = np.array(list/tuple,dtype=np.float32)
  
  即可以用元组或者列表来创建该对象，混用也可以，但数量要一样
@@ -47,6 +48,7 @@ ndarray是一个多维数组对象，由两部分构成：
  - **.tolist()** 转换成列表
 
  ## 2、ndarray对象的属性
+ 
  -  **.ndim**秩，即轴的数量或维度的数量
  -  .**shapendarray**对象的尺度，对于矩阵，n行m列
  -  **.sizendarray**对象元素的个数，相当于
@@ -104,6 +106,7 @@ ndarray是一个多维数组对象，由两部分构成：
  
  
   ## 6、NumPy二元函数
+  
  - **+  ‐ *  /  \*\*** 两个数组各元素进行对应运算 
  -  **np.maximum(x,y) np.fmax() np.minimum(x,y)np.fmin()** 元素级的最大值/最小值计算 
  -  **np.mod(x,y)** 元素级的模运算 
@@ -111,8 +114,10 @@ ndarray是一个多维数组对象，由两部分构成：
  -  **> < >= <= == !=** 算术比较，产生布尔型数组
 
 
- # 二、数据存取与函数
- ## 1、CSV文件（只能读写一维和二维）
+# 二、数据存取与函数
+
+## 1、CSV文件（只能读写一维和二维）
+
    **写入函数**
  ```py
    np.savetxt(frame, array, fmt='%.18e', delimiter=None)
@@ -132,6 +137,7 @@ np.loadtxt(frame, dtype=np.float, delimiter=None，unpack=False)
  - unpack : 如果True，读入属性将分别写入不同变量
 
 ## 2、多位数据存取（纯二进制文件）
+
 **存入**
  ```py
 a.tofile(frame, sep='', format='%s')
@@ -149,6 +155,7 @@ np.fromfile(frame, dtype=float, count=‐1, sep='')
 该方法需要读取时知道存入文件时数组的维度和元素类型 a.tofile()和np.fromfile()需要配合使用 可以通过元数据文件来存储额外信息
 
 ## 3、Numpy的便携存取(numpy独特的储存形式,开头有文件信息)
+
  ```py
 np.save(fname, array) #np.savez(fname, array)保存
 np.load(fname)#读入
@@ -183,9 +190,14 @@ np.load(fname)#读入
  - **median(a)** 计算数组a中元素的中位数（中值）
 
 ## 6、Numpy的梯度函数
+
 **np.gradient(f)** 计算数组f中元素的梯度，当f为多维时，返回每个维度梯度
 梯度：连续值之间的变化率，即斜率
 XY坐标轴连续三个X坐标对应的Y轴值：a, b, c，其中，b的梯度是：(c‐a)/2
 
+
+## 7、Numpy的归一化处理
+
+**np.where(condition, x, y)** 可以用于归一化处理，比如**np.where(n>5, 1, 0)**
  
 
