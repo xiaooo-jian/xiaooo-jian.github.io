@@ -95,11 +95,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(https://user-images.githubusercontent.com/48319720/78272175-c2cfa900-753f-11ea-9552-65dc959e0425.png);
+            background-image: url(https://user-images.githubusercontent.com/48319720/78272818-949e9900-7540-11ea-802d-505d06cf0720.png);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(https://user-images.githubusercontent.com/48319720/78272175-c2cfa900-753f-11ea-9552-65dc959e0425.png);
+              background-image: url(https://user-images.githubusercontent.com/48319720/78272818-949e9900-7540-11ea-802d-505d06cf0720.png);
             }
           }
         </style>
