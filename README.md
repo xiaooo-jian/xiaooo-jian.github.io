@@ -22,8 +22,10 @@
 
 <!-- slide vertical=true -->
 
-- **C/C++**, Learning
-- **Python**, Learning
+- **C/C++**, Familar
+- **Python**, Familar
+	- openCV, learning
+	- Tensoflow, learning
 - **Java** 
 	- Java EE，Learning
 	- Jave SE，Learning
@@ -32,6 +34,7 @@
 
 - **Markdown**, Learning
 - **Linux**, Learning
+- **My Sql**, learning
 - **Git**, Learning
 
 <!-- slide -->
