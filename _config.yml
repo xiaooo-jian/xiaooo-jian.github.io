@@ -10,11 +10,8 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
     <i class="fab fa-github"></i>
   </a>
   <a href="https://leetcode-cn.com/u/xiaooooo/">
-    <i class="fab fa-leetcode"></i>
+    <i class="fab fa-chevron-circle-up"></i>
   </a>
-  #<a href="https://www.zhihu.com/people/xiao-zhu-26-84">
-  #  <i class="fab fa-zhihu"></i>
-  #</a>
   <iframe
     src="https://music.163.com/outchain/player?type=2&id=1306507078&auto=0&height=32"
     width=100%
