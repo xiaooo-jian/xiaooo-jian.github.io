@@ -6,8 +6,9 @@
 
 ## 我的一些联系方式
 
-- Address: **DGUT  - Guangzhou, China**
+- Address: **DGUT  - GuangDong, China**
 - Site: **<https://xiaooo-jian.github.io>**
+- Leetcode: [https://leetcode-cn.com/u/xiaooooo/](https://leetcode-cn.com/u/xiaooooo/)
 
 <!-- slide vertical=true -->
 
